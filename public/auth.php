@@ -20,16 +20,12 @@ hr {
         <input type="text" name="password">
         <hr>
 
-        <div id="captcha-container" class="smart-captcha"
-            data-sitekey="ysc1_zCwbyhREprxHBDbEfH1Xzz2urQDVvCbaNmEJTj4j16c5741b">
-            <input type="hidden" name="smart-token" value="ysc2_zCwbyhREprxHBDbEfH1XVOAQjsTd1dQeA9zD2R6g2fbd3e20">
-        </div>
 
 
         <button type="submit">Авторизоваться</button>
     </form>
 </div>
-<script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+
 <br>
 <?php  
 require_once '../blocks/footer.php'; //Подключаем модуль footer подвал
